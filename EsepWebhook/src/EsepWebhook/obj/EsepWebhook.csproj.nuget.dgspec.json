@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj": {}
+    "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj": {
+    "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj",
+        "projectUniqueName": "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
         "projectName": "EsepWebhook",
-        "projectPath": "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\EsepWebhook.csproj",
+        "projectPath": "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
         "packagesPath": "C:\\Users\\joshu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\esepwebhook\\obj\\",
+        "outputPath": "C:\\Users\\joshu\\source\\repos\\esep-webhooks\\esepwebhook\\src\\EsepWebhook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joshu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -64,7 +64,15 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[6.0.24, 6.0.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
               "version": "[6.0.24, 6.0.24]"
             }
           ],
@@ -74,6 +82,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
